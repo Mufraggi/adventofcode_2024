@@ -97,10 +97,10 @@ let main argv =
                     |> checkValidityDampener
                     |> Array.filter (fun x -> x) |> Array.length
             
-    printfn "Le nombre de true est : %d" res
+    printfn "nb true : %d" res
     
     
-    printfn "Part 2 - Number of safe reports with Problem Dampener: %d" resPart2
+    printfn "Part 2 - nb true: %d" resPart2
 
             
     0
